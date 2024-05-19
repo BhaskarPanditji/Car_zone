@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!--nav section-->
+    <nav class="navbar navbar-expand-lg fs-5 text-uppercase">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Bee.<span class="text-warning">com</span></a>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#services">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Portfolio">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Teams">team</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Get-started
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#background"><i class="bi bi-caret-right-fill"></i>Buy</a></li>
+                  <li><a class="dropdown-item" href="#background"><i class="bi bi-caret-right-fill"></i>Sell</a></li>
+                  <li><a class="dropdown-item" href="#background"><i class="bi bi-caret-right-fill"></i>Order</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+  <!--carousel section-->
+      <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/lamborgini.webp" class="d-block w-100" alt="...">
+            <div class="carousel-caption  d-md-block">
+              <h5 class="fw-bold fs-1">The Dream Car</h5>
+              <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro quae commodi sint adipisci, ipsam mollitia sequi totam ea.</p>
+              <button class="btn-carousel bg-warning text-black px-4 py-2 border-0 mt-2 rounded ">learn more</button>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/Porsche.webp" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-md-block">
+              <h5 class="fw-bold fs-1">The Wonder Car</h5>
+              <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro quae commodi sint adipisci, ipsam mollitia sequi totam ea.</p>
+              <button class="btn-carousel bg-warning text-black px-4 py-2 border-0 mt-2 rounded">learn more</button>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/rolls.webp" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-md-block">
+              <h5 class="fw-bold fs-1">The Rich Car</h5>
+              <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro quae commodi sint adipisci, ipsam mollitia sequi totam ea.</p>
+              <button class="btn-carousel bg-warning text-black px-4 py-2 border-0 mt-2 rounded">learn more</button>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+  <!--About section-->
+        <div id="about" class="about section-padding">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="section-header text-center pb-5">
+                  <h2 class="text-uppercase">about</h2>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id dolor explicabo atque officia.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-lg-5 col-md-12 col-sm-12">
+                <div class="about-img">
+                  <img src="img/Bugati.jpg" alt="Bugati" class="img-fluid rounded-5">
+                </div>
+                </div>
+                <div class="col-lg-7 col-md-12 col-sm-12 ps-lg-5 mt-md-5">
+                  <div class="about-text">
+                    <h3 class="text-capitalize">we provide our best quality product</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis explicabo ipsum facere adipisci magni praesentium mollitia hic qui nostrum ad dolor exercitationem maxime magnam modi, itaque at repellat reprehenderit. Delectus, voluptates?</p>
+                  </div>
+                </div>
+            </div>
+            </div>
+          </div>
+  <!--service section-->
+        <div id="services" class="service section-padding">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="section-header text-center pb-5">
+                  <h2 class="text-uppercase">our services</h2>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id dolor explicabo atque officia.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+               <div class="col-12 col-md-12 col-lg-4">
+                <div class="card text-white text-center bg-black pb-2 my-2">
+                  <div class="card-body">
+                    <i class="bi bi-subtract fs-2"></i>
+                    <h3 >Best Quality</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <button class="bg-warning px-3 py-1 rounded">Read more</button>
+                  </div>              
+                </div>
+               </div>
+
+               <div class="col-12 col-md-12 col-lg-4">
+                <div class="card text-white text-center bg-black pb-2 my-2">
+                  <div class="card-body">
+                    <i class="bi bi-fast-forward-fill fs-2"></i>
+                    <h3 >Fast speed</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <button class="bg-warning px-3 py-1 rounded">Read more</button>
+                  </div>              
+                </div>
+               </div>
+
+               <div class="col-12 col-md-12 col-lg-4">
+                <div class="card text-white text-center bg-black pb-2 my-2">
+                  <div class="card-body">
+                    <i class="bi bi-badge-hd-fill fs-2"></i>
+                    <h3 >Moderns Design</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <button class="bg-warning px-3 py-1 rounded">Read more</button>
+                  </div>              
+                </div>
+               </div>
+
+            </div>
+          </div>
+        </div>
+  <!--background fixed-->
+        <div id="background" class="background">
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-xl-10">
+                <div class="text-center fixed-img">
+                  <h3 class="fw-bold text-capitalize text-white">check availablity</h3>
+                  <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum eum esse amet.</p>
+                  <a href="#home" class="btn-shop text-uppercase text-decoration-none rounded-3">register now</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+  <!--portfolio section-->
+        <div id="Portfolio" class="Portfolio section-padding">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="section-header text-center pb-5">
+                  <h2 class="text-uppercase">Models</h2>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id dolor explicabo atque officia.</p>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-12 col-md-12 col-lg-4">
+                <div class="card text-center bg-white pb-2 my-2">
+                  <div class="card-body text-dark">
+                    <div class="img-area">
+                      <img src="img/thar.webp" alt="Thar" class="img-fluid">
+                    </div>
+                    <h3 class="text-capitalize fw-bold">booking here</h3>
+                    <p>Mahindra Thar</p>
+                    <p>$ <b>11.25 - 17.60 Lakh</b></p>
+                    <button class="btn btn-danger text-white">Learn more</button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-12 col-md-12 col-lg-4">
+                <div class="card text-center bg-white pb-2 my-2">
+                  <div class="card-body text-dark">
+                    <div class="img-area">
+                      <img src="img/FOURTUNER.png" alt="Thar" class="img-fluid">
+                    </div>
+                    <h3 class="text-capitalize fw-bold">booking here</h3>
+                    <p>Toyota Fortuner</p>
+                    <p>$ <b>11.25 - 17.60 Lakh</b></p>
+                    
+                    <button class="btn btn-danger text-white">Learn more</button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-12 col-md-12 col-lg-4">
+                <div class="card text-center bg-white pb-2 my-2">
+                  <div class="card-body text-dark">
+                    <div class="img-area">
+                      <img src="img/hyundai-creta.png" alt="Thar" class="img-fluid">
+                    </div>
+                    <h3 class="text-capitalize fw-bold">booking here</h3>
+                    <P>Hyundai Creta</p>
+                    <p>$<b> 11.25 - 17.60 Lakh </b></P>
+                    <button class="btn btn-danger text-white">Learn more</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+  <!--teams secction-->
+        <div id="Teams" class="teams">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="section-header text-center pb-5">
+                  <h2 class="text-uppercase">team</h2>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id dolor explicabo atque officia.</p>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-12 col-md-12 col-lg-4">
+                <div class="text-center pb-2">
+                  <div class="card-body text-dark">
+                    <div class="img-area">
+                      <img src="teams/team-1.jpg" alt="walter" class="img-fluid rounded-circle w-50">
+                    </div>
+                    <h3 class="text-capitalize fw-bold pt-4">Sadie rhodes</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius provident itaque illo dolores tempore temporibus libero in necessitatibus.</p>
+                    <div class="social text-danger fs-3">
+                      <ul class="d-flex justify-content-center">
+                        <li class="p-3"><i class=" bi bi-instagram"></i></li>
+                        <li class="p-3"><i class=" bi bi-facebook"></i></li>
+                        <li class="p-3"><i class=" bi bi-twitter"></i></li>
+                        <li class="p-3"><i class=" bi bi-linkedin"></i></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-12 col-md-12 col-lg-4">
+                <div class="text-center pb-2">
+                  <div class="card-body text-dark">
+                    <div class="img-area">
+                      <img src="teams/team-2.jpg" alt="william" class="img-fluid rounded-circle w-50">
+                    </div>
+                    <h3 class="text-capitalize fw-bold pt-4">william anderson</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius provident itaque illo dolores tempore temporibus libero in necessitatibus.</p>
+                    <div class="social text-danger fs-3">
+                      <ul class="d-flex justify-content-center">
+                        <li class="p-3"><i class=" bi bi-instagram"></i></li>
+                        <li class="p-3"><i class=" bi bi-facebook"></i></li>
+                        <li class="p-3"><i class=" bi bi-twitter"></i></li>
+                        <li class="p-3"><i class=" bi bi-linkedin"></i></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-12 col-md-12 col-lg-4">
+                <div class="text-center pb-2">
+                  <div class="card-body text-dark">
+                    <div class="teamates">
+                      <img src="teams/team-3.jpg" alt="ammanda" class="img-fluid rounded-circle w-50">
+                    </div>
+                    <h3 class="text-capitalize fw-bold pt-4">ammanda jepson</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius provident itaque illo dolores tempore temporibus libero in necessitatibus.</p>
+                    <div class="social text-danger fs-3">
+                      <ul class="d-flex justify-content-center">
+                        <li class="p-3"><i class=" bi bi-instagram"></i></li>
+                        <li class="p-3"><i class=" bi bi-facebook"></i></li>
+                        <li class="p-3"><i class=" bi bi-twitter"></i></li>
+                        <li class="p-3"><i class=" bi bi-linkedin"></i></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+  <!--contact-->
+        <div id="contact" class="contact m-5">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="section-header text-center pb-5">
+                  <h2 class="text-uppercase">contact_us</h2>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id dolor explicabo atque officia.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-lg-5">
+                <div class="info bg-white p-5">
+                  <div class="Location d-flex">
+                    <div class="icons p-3 text-primary">
+                    <i class="bi bi-geo-alt"></i>
+                    </div>
+                    <div class="px-3">
+                    <h3>Location</h3>
+                    <p class="text-capitalize">sector 59,noida uttar pradesh</p>
+                    </div>
+                  </div>
+                  <div class="Email d-flex">
+                    <div class="icons p-3 text-primary">
+                      <i class="bi bi-envelope"></i>
+                    </div>
+                    <div class="px-3">
+                    <h3>Email</h3>
+                    <p>Info@example.com</p>
+                    </div>
+                  </div>
+                  <div class="Phone d-flex">
+                    <div class="icons p-3 text-primary">
+                      <i class="bi bi-telephone"></i>
+                    </div>
+                    <div class="px-3">
+                    <h3>Call:</h3>
+                    <p>+1 5589 55488 55</p>
+                    </div>
+                  </div>
+                  <div class="map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7005.437387379769!2d77.36271801136103!3d28.608214771338773!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce565fcf639e7%3A0x677c4d7bd48136!2sSector%2059%2C%20Noida%2C%20Uttar%20Pradesh!5e0!3m2!1sen!2sin!4v1710908149467!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-7">
+                <form action="#" class="form-control p-5">
+                <div class="m-3">
+                  <div class="d-flex ">
+                    <input type="text" placeholder="Your Name" id="Name" class="form-control">
+                    <input type="text" placeholder="Your Email" id="Email" class="form-control mx-1">
+                  </div>
+                </div>
+                <div class="my-3 mx-3">
+                  <input type="text" placeholder="Subject" id="Sub" class="form-control">
+                </div>
+                <div class="my-3 mx-3">
+                  <textarea placeholder="Message" id="Message" cols="30" rows="10" class="form-control"></textarea>
+                </div>
+                <div class="d-flex justify-content-center">
+                  <button type="submit" class="btn-primary btn m-3">Send Message</button>
+                </div>
+              </form>
+              </div>
+            </div>
+          </div>
+        </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
+
